@@ -8,6 +8,5 @@ Pod::Spec.new do |s|
     s.platform     = :ios, '8.0'
     s.source       = {:git => 'https://github.com/DrMatioDevelop/CRGoodsDetailServiceProtocol.git', :tag => s.version}
     s.source_files = 'CRGoodsDetailServiceProtocol/**/*.{h,m}'
-    #s.resource     = 'Class/Class.bundle'
     s.requires_arc = true
 end
