@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "568EF2AB1EC553CE0047A643"
-               BuildableName = "CRGoodsDetailServiceProtocol.framework"
-               BlueprintName = "CRGoodsDetailServiceProtocol"
+               BlueprintIdentifier = "568EF2BA1EC553E00047A643"
+               BuildableName = "CRGoodsDetailServiceProtocolDemo.app"
+               BlueprintName = "CRGoodsDetailServiceProtocolDemo"
                ReferencedContainer = "container:CRGoodsDetailServiceProtocol.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -29,6 +29,15 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "568EF2BA1EC553E00047A643"
+            BuildableName = "CRGoodsDetailServiceProtocolDemo.app"
+            BlueprintName = "CRGoodsDetailServiceProtocolDemo"
+            ReferencedContainer = "container:CRGoodsDetailServiceProtocol.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -42,15 +51,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "568EF2AB1EC553CE0047A643"
-            BuildableName = "CRGoodsDetailServiceProtocol.framework"
-            BlueprintName = "CRGoodsDetailServiceProtocol"
+            BlueprintIdentifier = "568EF2BA1EC553E00047A643"
+            BuildableName = "CRGoodsDetailServiceProtocolDemo.app"
+            BlueprintName = "CRGoodsDetailServiceProtocolDemo"
             ReferencedContainer = "container:CRGoodsDetailServiceProtocol.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -60,15 +70,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "568EF2AB1EC553CE0047A643"
-            BuildableName = "CRGoodsDetailServiceProtocol.framework"
-            BlueprintName = "CRGoodsDetailServiceProtocol"
+            BlueprintIdentifier = "568EF2BA1EC553E00047A643"
+            BuildableName = "CRGoodsDetailServiceProtocolDemo.app"
+            BlueprintName = "CRGoodsDetailServiceProtocolDemo"
             ReferencedContainer = "container:CRGoodsDetailServiceProtocol.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

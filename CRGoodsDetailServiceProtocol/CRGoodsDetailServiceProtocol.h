@@ -7,13 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-//! Project version number for CRGoodsDetailServiceProtocol.
-FOUNDATION_EXPORT double CRGoodsDetailServiceProtocolVersionNumber;
+@protocol CRGoodsDetailServiceProtocol <NSObject>
 
-//! Project version string for CRGoodsDetailServiceProtocol.
-FOUNDATION_EXPORT const unsigned char CRGoodsDetailServiceProtocolVersionString[];
+@required;
+- (UIViewController *)goodsDetailViewControllerWithGoodsId:(NSString *)goodsId goodName:(NSString *)goodName;
 
-// In this header, you should import all the public headers of your framework using statements like #import <CRGoodsDetailServiceProtocol/PublicHeader.h>
-
+@end
 

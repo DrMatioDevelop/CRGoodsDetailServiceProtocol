@@ -8,16 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		568EF2B11EC553CE0047A643 /* CRGoodsDetailServiceProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 568EF2AF1EC553CE0047A643 /* CRGoodsDetailServiceProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		568EF2BF1EC553E00047A643 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 568EF2BE1EC553E00047A643 /* main.m */; };
+		568EF2C21EC553E00047A643 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 568EF2C11EC553E00047A643 /* AppDelegate.m */; };
+		568EF2C51EC553E00047A643 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 568EF2C41EC553E00047A643 /* ViewController.m */; };
+		568EF2C81EC553E00047A643 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 568EF2C61EC553E00047A643 /* Main.storyboard */; };
+		568EF2CA1EC553E00047A643 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 568EF2C91EC553E00047A643 /* Assets.xcassets */; };
+		568EF2CD1EC553E00047A643 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 568EF2CB1EC553E00047A643 /* LaunchScreen.storyboard */; };
+		568EF2D41EC553F60047A643 /* CRAboutGoods.h in Headers */ = {isa = PBXBuildFile; fileRef = 568EF2D21EC553F60047A643 /* CRAboutGoods.h */; };
+		568EF2D51EC553F60047A643 /* CRAboutGoods.m in Sources */ = {isa = PBXBuildFile; fileRef = 568EF2D31EC553F60047A643 /* CRAboutGoods.m */; };
+		568EF2D61EC553F60047A643 /* CRAboutGoods.m in Sources */ = {isa = PBXBuildFile; fileRef = 568EF2D31EC553F60047A643 /* CRAboutGoods.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		568EF2AC1EC553CE0047A643 /* CRGoodsDetailServiceProtocol.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CRGoodsDetailServiceProtocol.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		568EF2AF1EC553CE0047A643 /* CRGoodsDetailServiceProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRGoodsDetailServiceProtocol.h; sourceTree = "<group>"; };
 		568EF2B01EC553CE0047A643 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		568EF2BB1EC553E00047A643 /* CRGoodsDetailServiceProtocolDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CRGoodsDetailServiceProtocolDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		568EF2BE1EC553E00047A643 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		568EF2C01EC553E00047A643 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		568EF2C11EC553E00047A643 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		568EF2C31EC553E00047A643 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		568EF2C41EC553E00047A643 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		568EF2C71EC553E00047A643 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		568EF2C91EC553E00047A643 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		568EF2CC1EC553E00047A643 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		568EF2CE1EC553E00047A643 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		568EF2D21EC553F60047A643 /* CRAboutGoods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRAboutGoods.h; sourceTree = "<group>"; };
+		568EF2D31EC553F60047A643 /* CRAboutGoods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRAboutGoods.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		568EF2A81EC553CE0047A643 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		568EF2B81EC553E00047A643 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -31,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				568EF2AE1EC553CE0047A643 /* CRGoodsDetailServiceProtocol */,
+				568EF2BC1EC553E00047A643 /* CRGoodsDetailServiceProtocolDemo */,
 				568EF2AD1EC553CE0047A643 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -39,6 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				568EF2AC1EC553CE0047A643 /* CRGoodsDetailServiceProtocol.framework */,
+				568EF2BB1EC553E00047A643 /* CRGoodsDetailServiceProtocolDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -47,9 +77,35 @@
 			isa = PBXGroup;
 			children = (
 				568EF2AF1EC553CE0047A643 /* CRGoodsDetailServiceProtocol.h */,
+				568EF2D21EC553F60047A643 /* CRAboutGoods.h */,
+				568EF2D31EC553F60047A643 /* CRAboutGoods.m */,
 				568EF2B01EC553CE0047A643 /* Info.plist */,
 			);
 			path = CRGoodsDetailServiceProtocol;
+			sourceTree = "<group>";
+		};
+		568EF2BC1EC553E00047A643 /* CRGoodsDetailServiceProtocolDemo */ = {
+			isa = PBXGroup;
+			children = (
+				568EF2C01EC553E00047A643 /* AppDelegate.h */,
+				568EF2C11EC553E00047A643 /* AppDelegate.m */,
+				568EF2C31EC553E00047A643 /* ViewController.h */,
+				568EF2C41EC553E00047A643 /* ViewController.m */,
+				568EF2C61EC553E00047A643 /* Main.storyboard */,
+				568EF2C91EC553E00047A643 /* Assets.xcassets */,
+				568EF2CB1EC553E00047A643 /* LaunchScreen.storyboard */,
+				568EF2CE1EC553E00047A643 /* Info.plist */,
+				568EF2BD1EC553E00047A643 /* Supporting Files */,
+			);
+			path = CRGoodsDetailServiceProtocolDemo;
+			sourceTree = "<group>";
+		};
+		568EF2BD1EC553E00047A643 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				568EF2BE1EC553E00047A643 /* main.m */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,6 +115,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				568EF2D41EC553F60047A643 /* CRAboutGoods.h in Headers */,
 				568EF2B11EC553CE0047A643 /* CRGoodsDetailServiceProtocol.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -84,6 +141,23 @@
 			productReference = 568EF2AC1EC553CE0047A643 /* CRGoodsDetailServiceProtocol.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		568EF2BA1EC553E00047A643 /* CRGoodsDetailServiceProtocolDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 568EF2CF1EC553E00047A643 /* Build configuration list for PBXNativeTarget "CRGoodsDetailServiceProtocolDemo" */;
+			buildPhases = (
+				568EF2B71EC553E00047A643 /* Sources */,
+				568EF2B81EC553E00047A643 /* Frameworks */,
+				568EF2B91EC553E00047A643 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CRGoodsDetailServiceProtocolDemo;
+			productName = CRGoodsDetailServiceProtocolDemo;
+			productReference = 568EF2BB1EC553E00047A643 /* CRGoodsDetailServiceProtocolDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -97,6 +171,10 @@
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 					};
+					568EF2BA1EC553E00047A643 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 568EF2A61EC553CE0047A643 /* Build configuration list for PBXProject "CRGoodsDetailServiceProtocol" */;
@@ -105,6 +183,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 568EF2A21EC553CE0047A643;
 			productRefGroup = 568EF2AD1EC553CE0047A643 /* Products */;
@@ -112,6 +191,7 @@
 			projectRoot = "";
 			targets = (
 				568EF2AB1EC553CE0047A643 /* CRGoodsDetailServiceProtocol */,
+				568EF2BA1EC553E00047A643 /* CRGoodsDetailServiceProtocolDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -124,6 +204,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		568EF2B91EC553E00047A643 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				568EF2CD1EC553E00047A643 /* LaunchScreen.storyboard in Resources */,
+				568EF2CA1EC553E00047A643 /* Assets.xcassets in Resources */,
+				568EF2C81EC553E00047A643 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -131,10 +221,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				568EF2D51EC553F60047A643 /* CRAboutGoods.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		568EF2B71EC553E00047A643 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				568EF2C51EC553E00047A643 /* ViewController.m in Sources */,
+				568EF2D61EC553F60047A643 /* CRAboutGoods.m in Sources */,
+				568EF2C21EC553E00047A643 /* AppDelegate.m in Sources */,
+				568EF2BF1EC553E00047A643 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		568EF2C61EC553E00047A643 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				568EF2C71EC553E00047A643 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		568EF2CB1EC553E00047A643 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				568EF2CC1EC553E00047A643 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		568EF2B21EC553CE0047A643 /* Debug */ = {
@@ -267,6 +388,28 @@
 			};
 			name = Release;
 		};
+		568EF2D01EC553E00047A643 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CRGoodsDetailServiceProtocolDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cyfsoftware163.CRGoodsDetailServiceProtocolDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		568EF2D11EC553E00047A643 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CRGoodsDetailServiceProtocolDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cyfsoftware163.CRGoodsDetailServiceProtocolDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -284,6 +427,14 @@
 			buildConfigurations = (
 				568EF2B51EC553CE0047A643 /* Debug */,
 				568EF2B61EC553CE0047A643 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		568EF2CF1EC553E00047A643 /* Build configuration list for PBXNativeTarget "CRGoodsDetailServiceProtocolDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				568EF2D01EC553E00047A643 /* Debug */,
+				568EF2D11EC553E00047A643 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
